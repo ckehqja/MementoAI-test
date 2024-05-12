@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
     }
-
+//ok
     public void featureA() {
         System.out.println("a");
     }
