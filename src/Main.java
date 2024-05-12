@@ -5,6 +5,6 @@ public class Main {
 
     }
     public void featureB() {
-        System.out.println("B");
+        System.out.println("b");
     }
 }
