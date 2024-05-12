@@ -8,4 +8,7 @@ public class Main {
     public void featureA() {
         System.out.println("a");
     }
+    public void featureB() {
+        System.out.println("b");
+    }
 }
