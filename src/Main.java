@@ -1,14 +1,23 @@
-//TIP 코드를 <b>실행</b>하려면 <shortcut actionId="Run"/>을(를) 누르거나
-// 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
-public class Main {
-    public static void main(String[] args) {
+import java.util.Arrays;
+import java.util.Scanner;
 
+public class Main {
+
+  public static void main(String[] args) {
+    int x, n;
+
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("증가할 숫자 입력");
+    x = scanner.nextInt();
+    System.out.println("증가할 횟수");
+    n = scanner.nextInt();
+
+    int[] answer = new int[n];
+
+    for (int i = 1; 0 < n--; i++) {
+      answer[i - 1] = x * i;
     }
-//ok
-    public void featureA() {
-        System.out.println("a");
-    }
-    public void featureB() {
-        System.out.println("b");
-    }
+
+    System.out.println(Arrays.toString(answer));
+  }
 }
